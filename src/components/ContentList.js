@@ -11,6 +11,41 @@ function ContentList() {
     images: ['Hampi.jpg'], 
     description: "Panjali: Mandovi river cruise with candle light dinner and free drinks",
     duration: 2, rating: 4.5,cost:2000
+  },{
+    categories: "Categories",
+    images: ['Hampi.jpg'], 
+    description: "Panjali: Mandovi river cruise with candle light dinner and free drinks",
+    duration: 2, rating: 4.5,cost:2000
+  },{
+    categories: "Categories",
+    images: ['Hampi.jpg'], 
+    description: "Panjali: Mandovi river cruise with candle light dinner and free drinks",
+    duration: 2, rating: 4.5,cost:2000
+  },{
+    categories: "Categories",
+    images: ['Hampi.jpg'], 
+    description: "Panjali: Mandovi river cruise with candle light dinner and free drinks",
+    duration: 2, rating: 4.5,cost:2000
+  },{
+    categories: "Categories",
+    images: ['Hampi.jpg'], 
+    description: "Panjali: Mandovi river cruise with candle light dinner and free drinks",
+    duration: 2, rating: 4.5,cost:2000
+  },{
+    categories: "Categories",
+    images: ['Hampi.jpg'], 
+    description: "Panjali: Mandovi river cruise with candle light dinner and free drinks",
+    duration: 2, rating: 4.5,cost:2000
+  },{
+    categories: "Categories",
+    images: ['Hampi.jpg'], 
+    description: "Panjali: Mandovi river cruise with candle light dinner and free drinks",
+    duration: 2, rating: 4.5,cost:2000
+  },{
+    categories: "Categories",
+    images: ['Hampi.jpg'], 
+    description: "Panjali: Mandovi river cruise with candle light dinner and free drinks",
+    duration: 2, rating: 4.5,cost:2000
   },]
   return (
     <div className='content-list-container'>
