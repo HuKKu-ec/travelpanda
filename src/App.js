@@ -1,16 +1,16 @@
 import './App.css';
 import ContentList from './components/ContentList';
-import Filter from './components/Filter';
+import Footer from './components/Footer';
+
 import Header  from './components/Header';
+import OtherExp from './components/OtherExp';
 function App() {
   return (
     <div className="App">
       <Header/>
-      <div style={{display:'flex'}}>
-      <Filter/>
       <ContentList/>
-      </div>
-      
+      <OtherExp/>
+      <Footer/>
       
 
     </div>

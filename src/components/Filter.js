@@ -1,5 +1,5 @@
-
 import React, { useState } from 'react';
+
 function Filter() {
     const [isActiveCategory, setIsActiveCategory] = useState(true);
     const [isActiveDestination, setIsActiveDestination] = useState(true);
