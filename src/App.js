@@ -1,18 +1,32 @@
 import './App.css';
-import ContentList from './components/ContentList';
-import Footer from './components/Footer';
+import {
+  BrowserRouter,
+  Route,
+  Routes
+} from "react-router-dom";
 
 import Header  from './components/Header';
-import OtherExp from './components/OtherExp';
+import Experience from './pages/Experience';
+
 function App() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/>
       <ContentList/>
       <OtherExp/>
-      <Footer/>
-      
+      <Footer/> */}
 
+<BrowserRouter>
+<Header/>
+        <div style={{ margin: 25 }}>
+          <Routes>
+            <Route path="/" element={<Experience/>} />
+            <Route path="/experiences" element={<Experience/>} />
+            <Route path="/Location"/>
+            <Route path="/Dates"  />
+          </Routes>
+        </div>
+      </BrowserRouter>
     </div>
   );
 }

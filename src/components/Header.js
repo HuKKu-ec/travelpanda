@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div className='header-container'>
       <img src='logo.png' className='logo-panda' alt='logo panda' />
       <div className='search-container'>
-        <p className='experience'>Experience</p>
-        <p className='location'>Location</p>
-        <p className='dates'>Dates</p>
+        <p className='experience'><Link style={{all:'unset'}} to="/experiences">Experience</Link></p>
+        <p className='location'><Link style={{all:'unset'}} to="/Location">Location</Link></p>
+        <p className='dates'><Link style={{all:'unset'}} to="/Dates">Dates</Link></p>
         {/* <input className='search-bar' placeholder='Experience               |             Location                  |                        Dates' type='text' /> */}
         <button className="search-button"><img src='search.png' className='search-logo' alt='search bar' /></button>
       </div>

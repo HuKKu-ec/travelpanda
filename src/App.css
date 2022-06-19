@@ -436,6 +436,10 @@
 
 
 }
+.footer-sub-container{
+  margin-bottom: 10px solid #000;
+
+}
 
 
 
@@ -497,21 +501,26 @@ a {
 
 .mission {
   flex: 1;
-  padding-right:100px ;
+  padding-right:50px ;
 }
 
-.support {
-  flex: 1;
+.sup-com{
+  flex: 2;
   
-
 }
+.support{
 
-.company {
-  flex: 1;
+  float: left;
+  margin-right:50px ;
+}
+.company{
+  float: left;
+  margin-left:90px;
 }
 
 .contact {
-  flex: 1;
+  flex: 1; 
+  padding-left:50px ;
 }
 
 .contact-form input {
@@ -552,7 +561,25 @@ a {
   right: 0px;
 }
 
+
 .email-container {
   position: relative;
-
 }
+.mini-gallery{
+  clear: both;
+  text-align: center;
+  margin-top: 300px;
+  
+}
+.mini-gallery h1{
+  text-align: center;
+}
+.gallery{
+  height: 237px;
+  background-color: #00A4A4;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+

@@ -1,12 +1,16 @@
 import React from 'react'
+import Gallery from './Gallery'
 
 const Footer = () => {
     return (
-        <div className='footer-container'>
+                
+            <div className='footer-container'>
+                <div className='footer-sub-container'>
             <div className='footer-head'>
                 <img src='logo2.png' style={{ verticalAlign: 'middle' }} alt='logo' />
                 <span style={{ fontFamily: 'charm', fontSize: '30px' }}>TravelPanda</span>
             </div>
+            <div className='foot'>
             <div className='footer-body'>
                 <div className='mission'>
                     <h1>Our Misssion</h1>
@@ -30,7 +34,7 @@ const Footer = () => {
                 </div>
                 
 
-
+            <div className='sup-com'>
                 <div className='support'>
                     <h1>Support</h1>
                     <p>Help centre</p>
@@ -44,6 +48,17 @@ const Footer = () => {
                     <p>Mission/Vision</p>
                     <p>Press</p>
                     <p>Company details</p>
+                </div>
+                <div className='mini-gallery'>
+                    <h1>Our Mini Gallery</h1>
+                    <div className='gallery'>
+                    <Gallery/>
+                        
+
+                    </div>
+                
+                </div>
+
                 </div>
                 <div className='contact'>
                     <h1>Contact us</h1>
@@ -60,8 +75,10 @@ const Footer = () => {
                     <input className='email-sub' type='email' placeholder='Email'/>
                     <button className="email-button"><img src='search.png' className='search-logo' alt='search bar' /></button>
                     </div>
-                    
                 </div>
+                
+            </div>
+            </div>
             </div>
         </div>
     )
