@@ -11,14 +11,11 @@ import Experience from './pages/Experience';
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
-      <ContentList/>
-      <OtherExp/>
-      <Footer/> */}
+
 
 <BrowserRouter>
 <Header/>
-        <div style={{ margin: 25 }}>
+        <div>
           <Routes>
             <Route path="/" element={<Experience/>} />
             <Route path="/experiences" element={<Experience/>} />
