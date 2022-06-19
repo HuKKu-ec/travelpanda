@@ -5,6 +5,7 @@ const Footer = () => {
     return (
                 
             <div className='footer-container'>
+                <div className='footer-body'>
                 <div className='footer-sub-container'>
             <div className='footer-head'>
                 <img src='logo2.png' style={{ verticalAlign: 'middle' }} alt='logo' />
@@ -53,12 +54,8 @@ const Footer = () => {
                     <h1>Our Mini Gallery</h1>
                     <div className='gallery'>
                     <Gallery/>
-                        
-
-                    </div>
-                
+                    </div>     
                 </div>
-
                 </div>
                 <div className='contact'>
                     <h1>Contact us</h1>
@@ -80,7 +77,10 @@ const Footer = () => {
             </div>
             </div>
             </div>
+            </div>
+            <p>.</p>
         </div>
+
     )
 }
 
