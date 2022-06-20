@@ -3,7 +3,10 @@ import React, { useState } from 'react';
 function Filter() {
     const [isActiveCategory, setIsActiveCategory] = useState(true);
     const [isActiveDestination, setIsActiveDestination] = useState(true);
-    const[travellerCount,setTravellerCount]=useState(1);
+    const [travellerCount,setTravellerCount]=useState(1);
+    /*****************************
+     some more usestate need to be added
+     *****************************/
 
     return (
         <div className='filter-container'>
