@@ -58,6 +58,8 @@
   padding-right: 58px;
   padding-left: 52px;
   color: #003024;
+  cursor: pointer;
+
 
 }
 
@@ -67,12 +69,16 @@
   border-right: 0.5px solid #afafaf;
   border-left: 0.5px solid #afafaf;
   color: #003024;
+  cursor: pointer;
+  
 }
 
 .dates {
   padding-left: 48px;
   padding-right: 86px;
   color: #003024;
+  cursor: pointer;
+  
 }
 
 .search-button {

@@ -19,8 +19,8 @@ function App() {
           <Routes>
             <Route exact={true} path="/" element={<Experience/>} />
             <Route exact={true} path="/experiences" element={<Experience/>} />
-            <Route exact={true} path="/Location"/>
-            <Route exact={true} path="/Dates"  />
+            <Route exact={true} path="/location"/>
+            <Route exact={true} path="/dates"  />
           </Routes>
         </div>
       </BrowserRouter>

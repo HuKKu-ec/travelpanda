@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Gallery from './Gallery'
 
 const Footer = () => {
+    const [address,setAddress]=useState()
+    const [phone,setPhone]=useState()
+    const [email,setEmail]=useState()
+    const [subEmail,setSubEmail]=useState()
     return (
                 
             <div className='footer-container'>
@@ -61,15 +65,16 @@ const Footer = () => {
                     <h1>Contact us</h1>
                     <form className='contact-form'>
                         <p>Address:</p>
-                        <input type='text' className='address'/>
+                        <input type='text' value={address} className='address'/>
                         <p>Phone:</p>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
+                        <input type="tel" value={phone} id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
                         <p>Email</p>
-                        <input type='email' className='Email'/>
+                        
+                        <input type='email' value={email} className='Email'/>
                     </form>
                     <h1>Subscribe us</h1>
                     <div className='email-container'>
-                    <input className='email-sub' type='email' placeholder='Email'/>
+                    <input className='email-sub'value={subEmail} type='email' placeholder='Email'/>
                     <button className="email-button"><img src='search.png' className='search-logo' alt='search bar' /></button>
                     </div>
                 </div>
