@@ -17,10 +17,10 @@ function App() {
 <Header/>
         <div>
           <Routes>
-            <Route path="/" element={<Experience/>} />
-            <Route path="/experiences" element={<Experience/>} />
-            <Route path="/Location"/>
-            <Route path="/Dates"  />
+            <Route exact path="/" element={<Experience/>} />
+            <Route exact path="/experiences" element={<Experience/>} />
+            <Route exact path="/Location"/>
+            <Route exact path="/Dates"  />
           </Routes>
         </div>
       </BrowserRouter>
