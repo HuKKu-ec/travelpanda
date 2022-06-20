@@ -17,10 +17,10 @@ function App() {
 <Header/>
         <div>
           <Routes>
-            <Route exact path="/" element={<Experience/>} />
-            <Route exact path="/experiences" element={<Experience/>} />
-            <Route exact path="/Location"/>
-            <Route exact path="/Dates"  />
+            <Route exact={true} path="/" element={<Experience/>} />
+            <Route exact={true} path="/experiences" element={<Experience/>} />
+            <Route exact={true} path="/Location"/>
+            <Route exact={true} path="/Dates"  />
           </Routes>
         </div>
       </BrowserRouter>
