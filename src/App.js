@@ -7,22 +7,24 @@ import {
 
 import Header  from './components/Header';
 import Experience from './pages/Experience';
+import Location from './pages/Location';
+import Dates from './pages/Dates';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-
-
 <BrowserRouter>
-<Header/>
+        <Header/>
         <div>
           <Routes>
             <Route exact={true} path="/" element={<Experience/>} />
             <Route exact={true} path="/experiences" element={<Experience/>} />
-            <Route exact={true} path="/location"/>
-            <Route exact={true} path="/dates"  />
+            <Route exact={true} path="/location" element={<Location/>}/>
+            <Route exact={true} path="/dates" element={<Dates/>}  />
           </Routes>
         </div>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
